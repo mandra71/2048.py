@@ -10,6 +10,8 @@ def getnums(f,r=[0,1,2,3],c=[0,1,2,3]):
         for x in c:ints.append(f[y][x])
     return ints
 
+print("Not sure what I'm doing")
+
 def sert(f,liste,r=[0,1,2,3],c=[0,1,2,3],reverse=False):
     pop_from=0
     if reverse==True:pop_from=-1
